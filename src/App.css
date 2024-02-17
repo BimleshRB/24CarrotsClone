@@ -1,0 +1,34 @@
+.hereTextCenter{
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   color: white !important;
+font-size: 6em;
+font-family: 'Times New Roman', Times, serif;
+}
+.clipPath{
+   clip-path: ellipse(36% 65% at 50% 100%);
+   width: 100%;
+   height: 100%;
+}
+.back-to-top {
+   z-index: 10000;
+   position: fixed;
+   bottom: 0;
+left:50% ;
+transform: translateX(-50%);
+padding: 2px 22px;
+   font-size: 18px;
+   background: rgb(181, 230, 207);
+
+   color: darkslategrey;
+   cursor: pointer;
+   border-top-left-radius: 50px;
+   border-top-right-radius: 50px;
+   /* border-radius: 100px; */
+   border: none;
+ }
+ .back-to-top:hover{
+   background-color: rgba(8, 184, 102, 0.46);
+ }
